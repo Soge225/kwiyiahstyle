@@ -714,7 +714,7 @@ section
 }
 .section_title_container
 {
-font-family: 'Roboto-Black', sans-serif !important;
+font-family: 'Lucida', serif !important;
 }
 .section_subtitle
 {
@@ -1198,8 +1198,48 @@ font-family: 'Roboto-Black', sans-serif !important;
 .home
 {
 	width: 100%;
-	background: #FFFFFF;
 }
+/* Assure que la galerie reste dans ses limites */
+.gallery {
+	position: relative;
+	overflow: hidden; /* Cela empêche le contenu de déborder */
+	background-color: #f5f5f5; /* Couleur de fond pour la galerie */
+}
+
+/* Fond de l'image */
+.gallery_image {
+	height: 300px; /* Hauteur fixe ou selon tes besoins */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1; /* Garde l'image en arrière-plan */
+}
+
+/* Ajustement du slider et autres éléments à l'intérieur de la galerie */
+.gallery {
+	position: relative;
+	overflow: hidden; /* pour que le fond ne déborde pas */
+	padding: 60px 0; /* ajuste selon ton besoin pour que le texte reste lisible */
+}
+
+.gallery_image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+}
+
+.gallery .container,
+.gallery_slider_container {
+	position: relative;
+	z-index: 2; /* pour que le texte et le contenu soient au-dessus de l'image */
+}
+
 
 /* --------------------
 :: 4.0 Wellcome Area CSS
@@ -2092,7 +2132,7 @@ font-family: 'Roboto-Black', sans-serif !important;
 }
 .newsletter_container
 {
-	margin-top: 75px;
+	margin-top: 25px;
 }
 .newsletter_input
 {
