@@ -756,6 +756,19 @@ font-family: 'Lucida', serif !important;
 	z-index: 999;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
+.color-options {
+	display: flex;
+	gap: 8px;
+	margin-top: 5px;
+}
+
+.color-dot {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+	cursor: default;
+}
 
 .logo-link {
 	display: block;
@@ -794,7 +807,7 @@ font-family: 'Lucida', serif !important;
 	margin-top: -4px;
 }
 .button
-{
+{	color: #ffffff;
 	width: 142px;
 	height: 46px;
 	background: #693a0d;
@@ -822,6 +835,7 @@ font-family: 'Lucida', serif !important;
 .button menu :hover {
 	background-color: #6a4e23 !important; /* marron au survol */
 }
+
 .button:hover
 {
 	background: #e0e3e4;
@@ -829,7 +843,6 @@ font-family: 'Lucida', serif !important;
 .main_nav a.active {
 	color: #7e3c13 !important; /* Couleur mise en avant */
 	font-weight: bold;
-	text-decoration: underline;
 }
 
 .button:hover a
@@ -1700,7 +1713,7 @@ font-family: 'Lucida', serif !important;
 }
 .products_container
 {
-	margin-top: 98px;
+	margin-top: 25px;
 }
 .product
 {
@@ -1746,6 +1759,7 @@ font-family: 'Lucida', serif !important;
 .product_content
 {
 	margin-top: 7px;
+	margin-bottom: 20px;
 }
 .product_info
 {
@@ -1753,8 +1767,8 @@ font-family: 'Lucida', serif !important;
 }
 .product_name a
 {
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 20px;
+	font-weight: 700;
 	color: #232323;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -1768,10 +1782,11 @@ font-family: 'Lucida', serif !important;
 }
 .product_price
 {
-	font-size: 24px;
-	font-weight: 600;
-	color: #8a8a8a;
+	font-size: 20px;
+	font-weight: 650;
+	color: #693a0d;
 	margin-top: 0px;
+	font-family: 'Roboto-black', sans-serif;
 }
 .product_options
 {
@@ -1819,8 +1834,8 @@ font-family: 'Lucida', serif !important;
 	vertical-align: middle;
 	font-size: 14px;
 	font-weight: 600;
-	color: #232323;
-	background: #e0e3e4;
+	color: #ffffff;
+	background: #000000;
 	line-height: 37px;
 	text-align: center;
 	-webkit-transition: all 200ms ease;
@@ -1829,12 +1844,19 @@ font-family: 'Lucida', serif !important;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
+.product_fav a
+{
+	color: #ffffff;
+}
 .product_fav:hover
 {
 	color: #FFFFFF;
-	background: #232323;
+	background: #693a0d;
 }
-
+.product_fav a
+{
+	color: #ffffff;
+}
 /*********************************
 8. Extra
 *********************************/
@@ -1860,7 +1882,7 @@ font-family: 'Lucida', serif !important;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+
 }
 .extra_promo_1
 {
@@ -1892,16 +1914,16 @@ font-family: 'Lucida', serif !important;
 }
 .extra_1_title
 {
-	font-family: 'Lucida', serif;
-	font-size: 30px;
+	font-family: 'Italiana';
+	font-size: 40px;
 	color: #693a0d;
-	margin-top: 39px;
+	margin-top: 19px;
+	font-weight: 600;
 }
 .extra_1_text
 {
 	font-size: 12px;
-	color: #aeaeae;
-	margin-top: 26px;
+	color: #ffffff;
 	line-height: 2;
 }
 .extra_1_button
@@ -1910,7 +1932,6 @@ font-family: 'Lucida', serif !important;
 }
 .extra_promo_2
 {
-	border: solid 2px #693a0d;
 	padding-top: 43px;
 	padding-bottom: 46px;
 }
@@ -2107,6 +2128,7 @@ font-family: 'Lucida', serif !important;
 	width: 100%;
 	padding-left: 0px;
 	padding-right: 0px;
+	padding-top: 20px;
 }
 .newsletter_content
 {
@@ -2212,6 +2234,32 @@ font-family: 'Lucida', serif !important;
 	margin-top: 19px;
 }
 
+
+.button2
+{ font-family: "Open Sans";
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #ffffff;
+	width: 142px;
+	height: 46px;
+	background: #693a0d;
+	text-align: center;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.button2:hover
+{
+	background: #e0e3e4;
+	color: #232323;
+}
+.button2
+{
+	font-size: 14px;
+	color: #FFFFFF;
+}
 /*********************************
 12. Footer
 *********************************/

@@ -48,10 +48,7 @@
 
 @media only screen and (max-width: 1600px)
 {
-	.main_nav
-	{
-		padding-left: 100px;
-	}
+
 	.shopping
 	{
 		padding-right: 100px;
@@ -78,14 +75,7 @@
 
 @media only screen and (max-width: 1380px)
 {
-	.main_nav
-	{
-		padding-left: 60px;
-	}
-	.main_nav ul li
-	{
-		margin-right: 34px;
-	}
+
 	.header_search
 	{
 		display: none;
