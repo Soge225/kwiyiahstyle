@@ -11,7 +11,19 @@ if (isset($_POST['submit'])) {
 
         $_SESSION['newsletter_success'] = true;
     }
-    header('Location: index.php');
+    header('Location: index.html');
     exit();
+}
+?>
+
+
+
+<?php
+session_start();
+$newsletter_success = false;
+
+if (isset($_SESSION['newsletter_success']) && $_SESSION['newsletter_success']) {
+    $newsletter_success = true;
+    unset($_SESSION['newsletter_success']); // Nettoyage après affichage
 }
 ?>
