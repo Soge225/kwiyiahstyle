@@ -584,12 +584,10 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
 }
 p a:hover
 {
-	color: #FFFFFF;
-	background: #ffa07f;
+	color: #693a0d;
 }
 p a:hover::after
 {
@@ -1133,6 +1131,7 @@ font-family: 'Lucida', serif !important;
 }
 .burger_button {
 	display: none;
+	margin-right: 20px;
 	flex-direction: column;
 	justify-content: space-between;
 	width: 40px;
@@ -2267,7 +2266,6 @@ font-family: 'Lucida', serif !important;
 .footer
 {
 	background: #000000;
-	padding-top: 80px;
 }
 .footer_logo a
 {
@@ -2338,7 +2336,7 @@ font-family: 'Lucida', serif !important;
 }
 .copyright
 {
-	margin-top: 56px;
+	margin-top: 15px;
 	padding-bottom: 13px;
 	font-family: 'Lucida', serif;
 	font-size: 12px;

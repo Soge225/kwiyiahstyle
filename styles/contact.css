@@ -111,12 +111,12 @@ a, a:hover, a:visited, a:active, a:link
 p a:active
 {
 	position: relative;
-	color: #FF6347;
+
 }
 p a:hover
 {
-	color: #FFFFFF;
-	background: #ffa07f;
+	color: #693a0d;
+
 }
 p a:hover::after
 {
@@ -124,11 +124,11 @@ p a:hover::after
 }
 ::selection
 {
-	
+
 }
 p::selection
 {
-	
+
 }
 h1{font-size: 48px;}
 h2{font-size: 36px;}
@@ -142,14 +142,14 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
 h6::selection
 {
-	
+
 }
 .form-control
 {
@@ -303,83 +303,14 @@ section
 3. Header
 *********************************/
 
-.header
-{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 120px;
-	background: #FFFFFF;
-	z-index: 100;
-	padding-left: 60px;
-	padding-right: 64px;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.header.scrolled
-{
-	height: 80px;
-}
-.header_inner
-{
-	width: 100%;
-	height: 100%;
-}
-
 /*********************************
 3.1 Header - Logo
 *********************************/
-
-.logo a
-{
-	font-family: 'Lucida', serif;
-	font-size: 30px;
-	color: #2f2f2f;
-}
-
 /*********************************
 3.2 Header - Main Navigation
 *********************************/
 
-.main_nav
-{
-	padding-left: 252px;
-	-webkit-transform: translateY(4px);
-	-moz-transform: translateY(4px);
-	-ms-transform: translateY(4px);
-	-o-transform: translateY(4px);
-	transform: translateY(4px);
-}
-.main_nav ul li
-{
-	display: inline-block;
-	margin-right: 50px;
-}
-.main_nav ul li:last-child
-{
-	margin-right: 0;
-}
-.main_nav ul li a
-{
-	font-size: 12px;
-	text-transform: uppercase;
-	color: #2f2f2f;
-	font-weight: 600;
-	letter-spacing: 0.2em;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.main_nav ul li a:hover
-{
-	color: #937c6f;
-}
+
 
 /*********************************
 3.3 Header - Search
@@ -788,7 +719,7 @@ section
 {
 	font-size: 12px !important;
 	font-weight: 400 !important;
-	font-style: italic;
+
 	color: #8c8c8c !important;
 }
 .review_form_input:-moz-placeholder,
@@ -796,7 +727,6 @@ section
 {
 	font-size: 12px !important;
 	font-weight: 400 !important;
-	font-style: italic;
 	color: #8c8c8c !important;
 }
 .review_form_input::-moz-placeholder,
@@ -804,7 +734,6 @@ section
 {
 	font-size: 12px !important;
 	font-weight: 400 !important;
-	font-style: italic;
 	color: #8c8c8c !important;
 } 
 .review_form_input:-ms-input-placeholder,
@@ -812,7 +741,7 @@ section
 { 
 	font-size: 12px !important;
 	font-weight: 400 !important;
-	font-style: italic;
+
 	color: #8c8c8c !important;
 }
 .review_form_input::input-placeholder,
@@ -820,7 +749,7 @@ section
 {
 	font-size: 12px !important;
 	font-weight: 400 !important;
-	font-style: italic;
+
 	color: #8c8c8c !important;
 }
 .review_form_button
@@ -829,7 +758,7 @@ section
 	height: 46px;
 	border: none;
 	outline: none;
-	background: #937c6f;
+	background: #693a0d;
 	color: #FFFFFF;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -844,8 +773,8 @@ section
 }
 .review_form_button:hover
 {
-	background: #e0e3e4;
-	color: #232323;
+	background: #000000;
+	color: #ffffff;
 }
 
 /*********************************
@@ -939,11 +868,11 @@ section
 
 .faq
 {
-	
+	font-family: 'Lucida', serif;
 }
 .faq_content
 {
-
+font-family: 'Lucida', serif;
 }
 .accordions
 {
@@ -957,12 +886,12 @@ section
 {
 	height: 57px;
 	width: 100%;
-	background: #937c6f;
+	background: #693a0d;
 	padding-left: 33px;
 	cursor: pointer;
 	color: #FFFFFF;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 600;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -977,9 +906,9 @@ section
 }
 .accordion.active
 {
-	background: #FFFFFF;
+	background: #000000;
 	border: solid 1px #b5b5b5;
-	color: #232323;
+	color: #ffffff;
 }
 .accordion:active
 {
@@ -1016,7 +945,7 @@ section
 }
 .accordion:hover
 {
-	background: #b5b5b5;
+	background: #693a0d;
 }
 .accordion_panel
 {
@@ -1087,35 +1016,35 @@ section
 {
 	font-size: 12px !important;
 	font-weight: 400 !important;
-	font-style: italic;
+
 	color: #b3b3b3 !important;
 }
 .newsletter_input:-moz-placeholder
 {
 	font-size: 12px !important;
 	font-weight: 400 !important;
-	font-style: italic;
+
 	color: #b3b3b3 !important;
 }
 .newsletter_input::-moz-placeholder
 {
 	font-size: 12px !important;
 	font-weight: 400 !important;
-	font-style: italic;
+
 	color: #b3b3b3 !important;
 } 
 .newsletter_input:-ms-input-placeholder
 { 
 	font-size: 12px !important;
 	font-weight: 400 !important;
-	font-style: italic;
+
 	color: #b3b3b3 !important;
 }
 .newsletter_input::input-placeholder
 {
 	font-size: 12px !important;
 	font-weight: 400 !important;
-	font-style: italic;
+
 	color: #b3b3b3 !important;
 }
 .newsletter_button
@@ -1147,7 +1076,7 @@ section
 .newsletter_text
 {
 	font-size: 14px;
-	font-style: italic;
+
 	color: #FFFFFF;
 	margin-top: 19px;
 }
